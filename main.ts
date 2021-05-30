@@ -32,3 +32,5 @@ bluetooth.onUartDataReceived(serial.delimiters(Delimiters.NewLine), function on_
     }
     
 })
+pins.setPull(DigitalPin.P0, PinPullMode.PullUp)
+pins.digitalReadPin(DigitalPin.P0)
