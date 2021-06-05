@@ -35,3 +35,4 @@ bluetooth.on_uart_data_received(serial.delimiters(Delimiters.NEW_LINE), on_uart_
 
 pins.set_pull(DigitalPin.P0, PinPullMode.PullUp)
 pins.digital_read_pin(DigitalPin.P0)
+pins.digital_write_pin(DigitalPin.P0, 0)
